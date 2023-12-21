@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 1509933125
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: cd309a63a3d9c41c965b88c519600bc6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5941c3541d8b403f80e37b0d697371e8
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: cd309a63a3d9c41c965b88c519600bc6
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Punch.anim
+Dependencies: []
