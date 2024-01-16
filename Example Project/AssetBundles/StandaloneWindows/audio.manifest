@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 2764890711
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 65b5bfc4f39a4d41e77f79c8d3482ae1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 65b5bfc4f39a4d41e77f79c8d3482ae1
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/dio.ogg
+- Assets/jotaro.ogg
+Dependencies: []

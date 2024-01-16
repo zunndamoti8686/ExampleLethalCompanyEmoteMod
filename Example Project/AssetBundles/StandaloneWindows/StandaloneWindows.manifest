@@ -1,7 +1,13 @@
 ManifestFileVersion: 0
-CRC: 1176479562
+CRC: 1429332612
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: punch
+      Name: animations
+      Dependencies: {}
+    Info_1:
+      Name: audio
+      Dependencies: {}
+    Info_2:
+      Name: props
       Dependencies: {}

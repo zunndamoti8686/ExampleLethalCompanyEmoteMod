@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 3018923514
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d80bbda262c8512a73a78fc65a464312
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5941c3541d8b403f80e37b0d697371e8
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: d80bbda262c8512a73a78fc65a464312
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/DioPose_start.anim
+- Assets/DioPose_loop.anim
+- Assets/JotaroPoint_loop.anim
+- Assets/JotaroPoint_start.anim
+Dependencies: []

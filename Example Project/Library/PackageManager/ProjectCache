@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638387776000038005
+      ticks: 638409681271680931
     m_Hash: 2093271607
   m_LockFileStatus:
     m_FilePath: G:/ExampleLethalCompanyEmoteMod/Example Project/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638387776000075387
+      ticks: 638409681271730933
     m_Hash: 728974561
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -3015,9 +3015,11 @@ m_ResolvedPackages:
     - 1.2.5
     - 1.2.6
     - 1.3.1
+    - 1.3.2
     compatible:
     - 1.2.6
     - 1.3.1
+    - 1.3.2
     recommended: 1.2.6
     deprecated: []
   dependencies: []
@@ -3197,12 +3199,14 @@ m_ResolvedPackages:
     - 1.8.9
     - 1.8.10
     - 1.8.11
+    - 1.8.12
     compatible:
     - 1.8.8
     - 1.8.9
     - 1.8.10
     - 1.8.11
-    recommended: 1.8.11
+    - 1.8.12
+    recommended: 1.8.12
     deprecated: []
   dependencies:
   - name: com.unity.mathematics
