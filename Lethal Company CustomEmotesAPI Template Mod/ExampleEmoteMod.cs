@@ -14,8 +14,8 @@ namespace Lethal_Company_CustomEmotesAPI_Template_Mod
     [BepInPlugin(PluginGUID, PluginName, PluginVersion)]
     public class ExampleEmoteMod /*right click on ExampleEmoteMod to the left and click rename, then type someting that matches your mod*/ : BaseUnityPlugin
     {
-        public const string PluginGUID = "com.weliveinasociety.testEmoteMod"/*insert a string here to denote your plugin's GUID, such as: "com.author.modname"*/;
-        public const string PluginName = "testEmoteMod"/*insert a string here to denote your plugin's name, such as: "modname"*/;
+        public const string PluginGUID = /*insert a string here to denote your plugin's GUID, such as: "com.author.modname"*/;
+        public const string PluginName = /*insert a string here to denote your plugin's name, such as: "modname"*/;
         public const string PluginVersion = "1.0.0";
         public static PluginInfo PInfo { get; private set; }
         public static ExampleEmoteMod instance;
