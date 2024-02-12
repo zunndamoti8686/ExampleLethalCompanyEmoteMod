@@ -1,0 +1,11 @@
+Some things will have changed slightly since the tutorial video was created. 
+
+The main aspect is the folder "Custom Animation Folder" exists now. 
+
+In order to make animations you create with the ChadRig more accurate, there is a slightly different process after you animate your emote. 
+
+If you are using animations from elsewhere do not worry about it
+
+Also, feel free to clear "junk" out if you don't need it, notably all the jotaro stuff which is just leftover as an example. 
+
+And please please please, create a base folder for your mod with your mod name, this is the easiest way to avoid conflicts with other mods having the same file paths

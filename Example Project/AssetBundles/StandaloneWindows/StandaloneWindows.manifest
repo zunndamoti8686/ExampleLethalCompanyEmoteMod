@@ -1,13 +1,13 @@
 ManifestFileVersion: 0
-CRC: 1429332612
+CRC: 3627292213
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: animations
+      Name: example_animations
       Dependencies: {}
     Info_1:
-      Name: audio
+      Name: example_audio
       Dependencies: {}
     Info_2:
-      Name: props
+      Name: example_props
       Dependencies: {}

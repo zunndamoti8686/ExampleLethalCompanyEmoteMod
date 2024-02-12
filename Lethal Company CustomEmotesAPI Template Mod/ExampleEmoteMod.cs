@@ -15,8 +15,8 @@ namespace Lethal_Company_CustomEmotesAPI_Template_Mod
     [BepInPlugin(PluginGUID, PluginName, PluginVersion)]
     public class ExampleEmoteMod /*right click on ExampleEmoteMod to the left and click rename, then type someting that matches your mod*/ : BaseUnityPlugin
     {
-        public const string PluginGUID = /*insert a string here to denote your plugin's GUID, such as: "com.author.modname"*/;
-        public const string PluginName = /*insert a string here to denote your plugin's name, such as: "modname"*/;
+        public const string PluginGUID = "ligmaballs69420"/*insert a string here to denote your plugin's GUID, such as: "com.author.modname"*/;
+        public const string PluginName = "ligmaballs69"/*insert a string here to denote your plugin's name, such as: "modname"*/;
         public const string PluginVersion = "1.0.0";
         public static PluginInfo PInfo { get; private set; }
         public static ExampleEmoteMod instance;
@@ -30,7 +30,13 @@ namespace Lethal_Company_CustomEmotesAPI_Template_Mod
 
             ImportAnimation([CustomEmotesAPI_Template_Mod.Assets.Load<AnimationClip>("jotaropoint_start.anim")], [CustomEmotesAPI_Template_Mod.Assets.Load<AnimationClip>("jotaropoint_loop.anim")], false, [Assets.Load<AudioClip>("jotaro.ogg")], false, "Jotaro Point", false, true, false);
             ImportAnimation([CustomEmotesAPI_Template_Mod.Assets.Load<AnimationClip>("DioPose_start.anim")], [CustomEmotesAPI_Template_Mod.Assets.Load<AnimationClip>("diopose_loop.anim")], false, [Assets.Load<AudioClip>("dio.ogg")], false, "Dio Pose", false, false, true);
-
+            CustomEmoteParams emoteParams = new CustomEmoteParams()
+            {
+                primaryAnimationClips = [CustomEmotesAPI_Template_Mod.Assets.Load<AnimationClip>("Custom Animation Folder/fingertouchtest.anim")],
+                displayName = "Finger Touch Test",
+                thirdPerson = true
+            };
+            EmoteImporter.ImportEmote(emoteParams);
 
             CustomEmotesAPI.animChanged += CustomEmotesAPI_animChanged;
         }
