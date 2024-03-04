@@ -28,6 +28,7 @@ namespace Lethal_Company_CustomEmotesAPI_Template_Mod
             PInfo = Info;
             CustomEmotesAPI_Template_Mod.Assets.LoadAssetBundlesFromFolder("assetbundles");
 
+            //////////////YOU CAN DELETE ANY OF THIS, IT'S JUST HERE AS AN EXAMPLE
             ImportAnimation([CustomEmotesAPI_Template_Mod.Assets.Load<AnimationClip>("jotaropoint_start.anim")], [CustomEmotesAPI_Template_Mod.Assets.Load<AnimationClip>("jotaropoint_loop.anim")], false, [Assets.Load<AudioClip>("jotaro.ogg")], false, "Jotaro Point", false, true, false);
             ImportAnimation([CustomEmotesAPI_Template_Mod.Assets.Load<AnimationClip>("DioPose_start.anim")], [CustomEmotesAPI_Template_Mod.Assets.Load<AnimationClip>("diopose_loop.anim")], false, [Assets.Load<AudioClip>("dio.ogg")], false, "Dio Pose", false, false, true);
             CustomEmoteParams emoteParams = new CustomEmoteParams()
@@ -37,6 +38,11 @@ namespace Lethal_Company_CustomEmotesAPI_Template_Mod
                 thirdPerson = true
             };
             EmoteImporter.ImportEmote(emoteParams);
+            //////////////////////////////////////////////////////////////////////
+
+
+
+
 
             CustomEmotesAPI.animChanged += CustomEmotesAPI_animChanged;
         }
@@ -48,6 +54,10 @@ namespace Lethal_Company_CustomEmotesAPI_Template_Mod
                 return;
             }
             newAnimation = newAnimation.Split("__")[1];
+
+
+
+            //////////////YOU CAN DELETE ANY OF THIS, IT'S JUST HERE AS AN EXAMPLE
             int prop1;
             switch (newAnimation)
             {
@@ -61,8 +71,13 @@ namespace Lethal_Company_CustomEmotesAPI_Template_Mod
                 default:
                     break;
             }
+            //////////////////////////////////////////////////////////////////////
+
+
+
         }
 
+        //////////You can modify this function as much as you want or make a new one entirely.
         public void ImportAnimation(AnimationClip[] primaryClips, AnimationClip[] secondaryClips, bool looping, AudioClip[] primaryAudioClips, bool sync, string customName, bool dmca, bool cantMove, bool thirdPerson)
         {
             CustomEmoteParams emoteParams = new CustomEmoteParams();
