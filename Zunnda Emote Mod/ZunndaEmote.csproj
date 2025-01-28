@@ -17,7 +17,7 @@
   <PropertyGroup>
     <!--you need to change both of these to your path, if you are working with multiple people, you can copy paste line 19 here and include their directories as well, or use a different system entirely.-->
     <BepinexParentDir Condition="Exists('C:\Program Files (x86)\Steam\steamapps\common\Lethal Company')">C:\Program Files (x86)\Steam\steamapps\common\Lethal Company</BepinexParentDir>
-    
+    <BepinexParentDir Condition="Exists('D:\SteamLibrary\steamapps\common\Lethal Company')">D:\SteamLibrary\steamapps\common\Lethal Company</BepinexParentDir>
     <BepinexDir>$(BepinexParentDir)\BepInEx\</BepinexDir>
     <PluginsDir>$(BepinexDir)plugins\</PluginsDir>
   </PropertyGroup>
@@ -45,7 +45,7 @@
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
     <!--Changed "Example Mod" to whatever you named your folder-->
-    <Copy SourceFiles="@(OutputFiles)" DestinationFolder="$(PluginsDir)Test Emote Mod/Example Emote Mod" />
+    <Copy SourceFiles="@(OutputFiles)" DestinationFolder="$(PluginsDir)Test Emote Mod/Zunnda Emote" />
   </Target>
 
 </Project>
